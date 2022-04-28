@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: c4827951-7c23-426e-9af7-a47f10a48ed3 # Articles
+handle: authorMeta
+instructions: ''
+name: 'Author Meta'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:3006cf88-6778-48e6-972a-19e9b65c2838' # Authors
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

@@ -1,0 +1,19 @@
+columnSuffix: ltnmyxeb
+contentColumnType: text
+fieldGroup: d446bb31-38e3-4f89-9ec4-17680bee8da4 # Authors
+handle: authorImage
+instructions: ''
+name: 'Author Image'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

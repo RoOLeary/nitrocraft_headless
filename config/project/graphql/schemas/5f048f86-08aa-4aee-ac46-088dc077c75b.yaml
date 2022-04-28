@@ -1,0 +1,28 @@
+isPublic: false
+name: 'Article Schema'
+scope:
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.ca8375e9-eb13-4c5d-b7ef-fe1a916efcd2:read' # Articles
+  - 'entrytypes.249932c6-1638-44bc-b88f-05f3e1265758:read' # Articles
+  - 'sections.3006cf88-6778-48e6-972a-19e9b65c2838:read' # Authors
+  - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:read' # Authors
+  - 'usergroups.everyone:read'
+  - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:read' # Authors
+  - 'categorygroups.0af7d687-804f-4800-8afc-d5aed3f4956a:read' # Editorial
+  - 'taggroups.4e501aba-6e6b-42e4-8047-304e0b576a79:read' # Latest
+  - 'sections.ca8375e9-eb13-4c5d-b7ef-fe1a916efcd2:edit' # Articles
+  - 'entrytypes.249932c6-1638-44bc-b88f-05f3e1265758:edit' # Articles
+  - 'entrytypes.249932c6-1638-44bc-b88f-05f3e1265758:create' # Articles
+  - 'entrytypes.249932c6-1638-44bc-b88f-05f3e1265758:save' # Articles
+  - 'sections.3006cf88-6778-48e6-972a-19e9b65c2838:edit' # Authors
+  - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:edit' # Authors
+  - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:create' # Authors
+  - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:save' # Authors
+  - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:edit' # Authors
+  - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:save' # Authors
+  - 'categorygroups.0af7d687-804f-4800-8afc-d5aed3f4956a:edit' # Editorial
+  - 'categorygroups.0af7d687-804f-4800-8afc-d5aed3f4956a:save' # Editorial
+  - 'taggroups.4e501aba-6e6b-42e4-8047-304e0b576a79:edit' # Latest
+  - 'taggroups.4e501aba-6e6b-42e4-8047-304e0b576a79:save' # Latest

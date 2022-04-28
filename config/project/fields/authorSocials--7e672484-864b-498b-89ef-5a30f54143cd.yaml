@@ -1,0 +1,20 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: d446bb31-38e3-4f89-9ec4-17680bee8da4 # Authors
+handle: authorSocials
+instructions: ''
+name: 'Author Socials'
+searchable: false
+settings:
+  contentTable: '{{%stc_authorsocials}}'
+  fieldLayout: row
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: ''
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

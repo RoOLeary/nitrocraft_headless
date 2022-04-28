@@ -1,0 +1,17 @@
+columnSuffix: abflqzzw
+contentColumnType: datetime
+fieldGroup: c4827951-7c23-426e-9af7-a47f10a48ed3 # Articles
+handle: publishDate
+instructions: ''
+name: 'Publish Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date
