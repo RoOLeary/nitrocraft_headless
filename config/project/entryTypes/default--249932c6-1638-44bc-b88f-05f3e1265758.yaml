@@ -108,7 +108,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 114d73ea-36a9-482e-b669-5535f4396bda # Manual Related Articles
+            fieldUid: 71125163-6678-4edb-b590-b7a22d6ddac8 # Enable Manual Related Articles
             instructions: null
             label: null
             required: false
@@ -117,7 +117,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 71125163-6678-4edb-b590-b7a22d6ddac8 # Enable Manual Related Articles
+            fieldUid: 114d73ea-36a9-482e-b669-5535f4396bda # Manual Related Articles
             instructions: null
             label: null
             required: false

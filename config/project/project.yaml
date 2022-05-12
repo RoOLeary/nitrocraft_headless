@@ -1,4 +1,4 @@
-dateModified: 1650879557
+dateModified: 1652231178
 email:
   fromEmail: roleary81@gmail.com
   fromName: nitroblog
@@ -51,7 +51,7 @@ plugins:
     schemaVersion: 2.2.1
   tag-manager:
     edition: standard
-    enabled: true
+    enabled: false
     schemaVersion: 1.0.0
 system:
   edition: pro
