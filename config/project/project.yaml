@@ -1,4 +1,4 @@
-dateModified: 1652231178
+dateModified: 1654524204
 email:
   fromEmail: roleary81@gmail.com
   fromName: nitroblog
@@ -7,10 +7,14 @@ meta:
   __names__:
     0a9a7938-7fd3-4180-9a2c-eb49e35f3bbc: 'Article Body' # Article Body
     0af7d687-804f-4800-8afc-d5aed3f4956a: Editorial # Editorial
+    2ec4da68-1d05-4611-a46d-9e755045d3ae: 'Sub Headline' # Sub Headline
+    2f1d3162-bbc3-4977-94a4-df26c0a3ca2d: Pages # Pages
     3c64ffa3-ee5d-482e-a0ea-6dc7b2cef996: 'Author Bio' # Author Bio
     3fcb9ba5-732f-4d73-b23d-475425665566: 'Platform Logo' # Platform Logo
     4e501aba-6e6b-42e4-8047-304e0b576a79: Latest # Latest
+    4f3df36c-28b5-4f40-9dec-24f89271a732: Headline # Headline
     5f048f86-08aa-4aee-ac46-088dc077c75b: 'Article Schema' # Article Schema
+    6e907b71-6560-45f0-9326-d8d06ef95e6e: 'Image Slider' # Image Slider
     6e5121f2-2ee7-4371-8f40-34c1b4b3705c: 'Author Last Name' # Author Last Name
     7a0cedd4-e389-4ee8-9625-dc8020b1f508: Authors # Authors
     7e672484-864b-498b-89ef-5a30f54143cd: 'Author Socials' # Author Socials
@@ -20,25 +24,40 @@ meta:
     25c8179c-394c-4d2c-b92d-23e8e248b2ce: 'Article Format' # Article Format
     36b84296-716c-4234-8abc-080f9f16890c: 'Sub Headline' # Sub Headline
     44a32b2b-88c6-42a6-863e-64a2475ed308: Authors # Authors
+    56cce42b-6d13-4c2e-81d4-a8d59fbb3d43: Answer # Answer
+    61f79bb1-a95d-4f39-a9ca-5aaa75296d44: 'Faq Leadtext' # Faq Leadtext
+    68e3b15a-4d81-44cf-9068-1a47ead471c6: Pages # Pages
     114d73ea-36a9-482e-b669-5535f4396bda: 'Manual Related Articles' # Manual Related Articles
     124b328d-357a-4716-b617-457f589e5fad: 'Platform Name' # Platform Name
     214b371d-8ae9-4f50-b153-e2c216152979: Excerpt # Excerpt
+    367a9c5c-83d2-40c0-873b-812e3cb4cda6: FAQs # FAQs
     816ef14f-7fef-407b-97a3-a5d94ef0c4c7: Common # Common
     1898b1a4-b386-470a-8013-0f7eee168b0c: 'Author Meta' # Author Meta
+    2064df9b-8d43-46b0-8ebf-77d94a8b5479: 'Slider Title' # Slider Title
     3006cf88-6778-48e6-972a-19e9b65c2838: Authors # Authors
     7641ba6c-da21-49bc-b8d2-a8d4eeebdecd: 'Author Image' # Author Image
     8066ba82-b555-4b6d-a80e-d626af0a5636: 'Author Link' # Author Link
     249932c6-1638-44bc-b88f-05f3e1265758: Articles # Articles
+    432539cb-2c1f-4e0d-95e4-fbd53d2fd0c8: 'Faq Heading' # Faq Heading
+    4296534a-f62e-43fa-abd1-957fdeabb29f: Faq # Faq
+    31114783-8900-4749-ac31-ad8cfe7991b5: Question # Question
     71125163-6678-4edb-b590-b7a22d6ddac8: 'Enable Manual Related Articles' # Enable Manual Related Articles
+    78888197-26c5-4cfa-bc9e-acb8a24d0bc3: Blocks # Blocks
     a350242b-ebe9-41dc-ae35-b1607d2689a3: 'Public Schema' # Public Schema
+    ab181b9c-c210-4ebe-aed3-bd394d391e6f: Hero # Hero
     abe708b1-54c9-4cc4-935c-f1dd58d42fa2: Category # Category
     b92f2c70-6612-4494-b3f5-7fccfd6d38c6: 'Author First Name' # Author First Name
+    c1bb4e2d-2c53-48de-8a84-a21a5ec47734: Blocks # Blocks
     c4827951-7c23-426e-9af7-a47f10a48ed3: Articles # Articles
     ca8375e9-eb13-4c5d-b7ef-fe1a916efcd2: Articles # Articles
     d7c059b5-7d24-48d7-97bf-9dfca0e647ca: nitroblog # nitroblog
     d49a645c-007b-487d-bbc9-b6c41c89504d: 'Publish Date' # Publish Date
     d446bb31-38e3-4f89-9ec4-17680bee8da4: Authors # Authors
+    ddaf97aa-ecdf-4dc4-b907-37241a3b6343: ArticleBody # ArticleBody
+    f4c0ab66-4c90-44ea-b6c9-9e969949bb4d: Heading # Heading
     f715fdde-db33-4c74-a860-c198747a761b: Headline # Headline
+    fa74e5dc-81bf-4d91-bf22-ba8938077d46: Eyebrow # Eyebrow
+    fb06b641-bf84-454b-984e-efecf47f3e61: Text # Text
     fca96965-882f-4612-8517-144a5bf4356f: 'Author Type' # Author Type
 plugins:
   redactor:

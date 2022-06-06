@@ -1,0 +1,41 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  09930dcd-a410-4e5b-94e3-bf06f47b4ede:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2064df9b-8d43-46b0-8ebf-77d94a8b5479 # Slider Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2064df9b-8d43-46b0-8ebf-77d94a8b5479: # Slider Title
+    columnSuffix: ucjyoske
+    contentColumnType: text
+    fieldGroup: null
+    handle: sliderTitle
+    instructions: ''
+    name: 'Slider Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: imageSlider
+name: 'Image Slider'
+sortOrder: 3

@@ -1,32 +1,32 @@
 {
-  "require": {
-    "craftcms/cms": "^3.7.39",
-    "craftcms/redactor": "^2.10.7",
-    "verbb/super-table": "2.7.1",
-    "vlucas/phpdotenv": "^5.4.0"
-  },
-  "require-dev": {
-    "yiisoft/yii2-shell": "^2.0.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "modules\\": "modules/"
-    }
-  },
-  "config": {
-    "allow-plugins": {
-      "craftcms/plugin-installer": true,
-      "yiisoft/yii2-composer": true
+    "require": {
+        "craftcms/cms": "3.7.44",
+        "craftcms/redactor": "^2.10.7",
+        "verbb/super-table": "2.7.2",
+        "vlucas/phpdotenv": "^5.4.0"
     },
-    "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-      "php": "7.2.5"
+    "require-dev": {
+        "yiisoft/yii2-shell": "^2.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.2.5"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
     }
-  },
-  "scripts": {
-    "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-    ]
-  }
 }

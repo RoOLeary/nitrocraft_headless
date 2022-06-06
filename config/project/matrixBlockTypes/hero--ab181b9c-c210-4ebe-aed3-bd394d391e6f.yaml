@@ -1,0 +1,99 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  be3eab39-3f2d-4e1a-94ef-cde6e031a286:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: fa74e5dc-81bf-4d91-bf22-ba8938077d46 # Eyebrow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f4c0ab66-4c90-44ea-b6c9-9e969949bb4d # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2ec4da68-1d05-4611-a46d-9e755045d3ae # Sub Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2ec4da68-1d05-4611-a46d-9e755045d3ae: # Sub Headline
+    columnSuffix: nrnsnnoa
+    contentColumnType: text
+    fieldGroup: null
+    handle: subHeadline
+    instructions: ''
+    name: 'Sub Headline'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f4c0ab66-4c90-44ea-b6c9-9e969949bb4d: # Heading
+    columnSuffix: vbicaizl
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fa74e5dc-81bf-4d91-bf22-ba8938077d46: # Eyebrow
+    columnSuffix: hhrcderx
+    contentColumnType: text
+    fieldGroup: null
+    handle: eyebrow
+    instructions: ''
+    name: Eyebrow
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: hero
+name: Hero
+sortOrder: 1

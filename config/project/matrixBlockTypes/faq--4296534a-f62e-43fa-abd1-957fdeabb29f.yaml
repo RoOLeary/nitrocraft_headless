@@ -1,0 +1,116 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  c8af2e88-4f37-40af-b879-fe1426b0de78:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 432539cb-2c1f-4e0d-95e4-fbd53d2fd0c8 # Faq Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 61f79bb1-a95d-4f39-a9ca-5aaa75296d44 # Faq Leadtext
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 367a9c5c-83d2-40c0-873b-812e3cb4cda6 # FAQs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  61f79bb1-a95d-4f39-a9ca-5aaa75296d44: # Faq Leadtext
+    columnSuffix: twtujejp
+    contentColumnType: text
+    fieldGroup: null
+    handle: faqLeadtext
+    instructions: ''
+    name: 'Faq Leadtext'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  367a9c5c-83d2-40c0-873b-812e3cb4cda6: # FAQs
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: faqs
+    instructions: ''
+    name: FAQs
+    searchable: false
+    settings:
+      columns:
+        __assoc__:
+          -
+            - 31114783-8900-4749-ac31-ad8cfe7991b5 # Question
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 56cce42b-6d13-4c2e-81d4-a8d59fbb3d43 # Answer
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_4_faqs}}'
+      fieldLayout: row
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  432539cb-2c1f-4e0d-95e4-fbd53d2fd0c8: # Faq Heading
+    columnSuffix: xczsfexy
+    contentColumnType: text
+    fieldGroup: null
+    handle: faqHeading
+    instructions: ''
+    name: 'Faq Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: faq
+name: Faq
+sortOrder: 4

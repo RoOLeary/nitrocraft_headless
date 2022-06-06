@@ -8,6 +8,8 @@ scope:
   - 'entrytypes.249932c6-1638-44bc-b88f-05f3e1265758:read' # Articles
   - 'sections.3006cf88-6778-48e6-972a-19e9b65c2838:read' # Authors
   - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:read' # Authors
+  - 'sections.68e3b15a-4d81-44cf-9068-1a47ead471c6:read' # Pages
+  - 'entrytypes.2f1d3162-bbc3-4977-94a4-df26c0a3ca2d:read' # Pages
   - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:read' # Authors
   - 'categorygroups.0af7d687-804f-4800-8afc-d5aed3f4956a:read' # Editorial
   - 'taggroups.4e501aba-6e6b-42e4-8047-304e0b576a79:read' # Latest
@@ -21,6 +23,10 @@ scope:
   - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:create' # Authors
   - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:save' # Authors
   - 'entrytypes.7a0cedd4-e389-4ee8-9625-dc8020b1f508:delete' # Authors
+  - 'sections.68e3b15a-4d81-44cf-9068-1a47ead471c6:edit' # Pages
+  - 'entrytypes.2f1d3162-bbc3-4977-94a4-df26c0a3ca2d:edit' # Pages
+  - 'entrytypes.2f1d3162-bbc3-4977-94a4-df26c0a3ca2d:create' # Pages
+  - 'entrytypes.2f1d3162-bbc3-4977-94a4-df26c0a3ca2d:save' # Pages
   - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:edit' # Authors
   - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:save' # Authors
   - 'categorygroups.44a32b2b-88c6-42a6-863e-64a2475ed308:delete' # Authors
