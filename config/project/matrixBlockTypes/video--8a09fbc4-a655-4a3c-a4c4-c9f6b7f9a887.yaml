@@ -1,0 +1,70 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  80c7b9fc-29e8-4484-8111-ab83c5798588:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0e8d53af-2e9f-4199-91d3-e494e3e6dc50 # Video Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dbbb967c-c488-4cb8-b499-8d94ccb9ea4e # Video Embed Code
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0e8d53af-2e9f-4199-91d3-e494e3e6dc50: # Video Title
+    columnSuffix: tfcxdelx
+    contentColumnType: text
+    fieldGroup: null
+    handle: videoTitle
+    instructions: ''
+    name: 'Video Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  dbbb967c-c488-4cb8-b499-8d94ccb9ea4e: # Video Embed Code
+    columnSuffix: rfrusmmw
+    contentColumnType: text
+    fieldGroup: null
+    handle: videoEmbedCode
+    instructions: ''
+    name: 'Video Embed Code'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: video
+name: Video
+sortOrder: 5

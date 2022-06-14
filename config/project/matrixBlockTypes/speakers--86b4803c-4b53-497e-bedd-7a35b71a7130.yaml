@@ -1,0 +1,75 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  e5bac886-150b-454e-a078-c206ba00958f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9c402a93-b3e7-4113-a514-de877143610d # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 84343fee-3a4a-4617-97af-d90bc4108bcf # Speakers
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9c402a93-b3e7-4113-a514-de877143610d: # Heading
+    columnSuffix: kengwaoa
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  84343fee-3a4a-4617-97af-d90bc4108bcf: # Speakers
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: speakers
+    instructions: ''
+    name: Speakers
+    searchable: false
+    settings:
+      allowLimit: false
+      allowMultipleSources: false
+      allowSelfRelations: false
+      branchLimit: ''
+      limit: null
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: 'group:44a32b2b-88c6-42a6-863e-64a2475ed308' # Authors
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Categories
+handle: speakers
+name: Speakers
+sortOrder: 6
