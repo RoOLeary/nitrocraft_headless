@@ -1,0 +1,19 @@
+columnSuffix: veqnarwl
+contentColumnType: text
+fieldGroup: 694afd2a-2db7-4b83-a27a-d2a40417c52e # Speakers
+handle: speakerName
+instructions: 'Enter the name of the speaker'
+name: 'Speaker Name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

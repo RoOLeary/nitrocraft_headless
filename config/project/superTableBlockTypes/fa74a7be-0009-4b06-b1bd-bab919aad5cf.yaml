@@ -73,7 +73,7 @@ fields:
     translationMethod: none
     type: craft\fields\PlainText
   94e99070-0585-4805-86f9-3902da2745e7: # Slide Color
-    columnSuffix: ambgatue
+    columnSuffix: null
     contentColumnType: string
     fieldGroup: null
     handle: slideColor

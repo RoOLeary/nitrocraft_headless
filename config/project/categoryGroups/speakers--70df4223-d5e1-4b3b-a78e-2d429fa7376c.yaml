@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  a4800983-fa3d-4019-b167-3ea3a532023d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: speakers
+name: Speakers
+siteSettings:
+  d7c059b5-7d24-48d7-97bf-9dfca0e647ca: # nitroblog
+    hasUrls: true
+    template: null
+    uriFormat: 'speakers/{slug}'
+structure:
+  maxLevels: null
+  uid: 0c321208-dd76-4dc5-982c-eb7886ae766e

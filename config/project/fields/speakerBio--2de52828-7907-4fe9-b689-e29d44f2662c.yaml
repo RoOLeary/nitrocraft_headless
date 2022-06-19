@@ -1,0 +1,27 @@
+columnSuffix: gcnlqddb
+contentColumnType: text
+fieldGroup: 694afd2a-2db7-4b83-a27a-d2a40417c52e # Speakers
+handle: speakerBio
+instructions: 'Enter the speaker bio'
+name: 'Speaker Bio'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
