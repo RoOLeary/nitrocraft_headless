@@ -107,4 +107,4 @@ fields:
     type: craft\fields\Entries
 handle: speakers
 name: Speakers
-sortOrder: 6
+sortOrder: 5

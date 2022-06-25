@@ -113,4 +113,4 @@ fields:
     type: craft\fields\PlainText
 handle: faq
 name: Faq
-sortOrder: 4
+sortOrder: 1

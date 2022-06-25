@@ -1,4 +1,4 @@
-dateModified: 1655646366
+dateModified: 1656161136
 email:
   fromEmail: roleary81@gmail.com
   fromName: nitroblog
@@ -41,6 +41,7 @@ meta:
     214b371d-8ae9-4f50-b153-e2c216152979: Excerpt # Excerpt
     367a9c5c-83d2-40c0-873b-812e3cb4cda6: FAQs # FAQs
     694afd2a-2db7-4b83-a27a-d2a40417c52e: Speakers # Speakers
+    703b3f54-65f7-40aa-8dc8-4de72b135d2f: Header # Header
     809e8d90-be53-4bfc-8e85-2ac295f87b92: 'Speaker Category' # Speaker Category
     816ef14f-7fef-407b-97a3-a5d94ef0c4c7: Common # Common
     1898b1a4-b386-470a-8013-0f7eee168b0c: 'Author Meta' # Author Meta
@@ -77,6 +78,7 @@ meta:
     d8908cbd-ae7e-4778-b10d-2451f45de857: 'Slider Matrix' # Slider Matrix
     dbbb967c-c488-4cb8-b499-8d94ccb9ea4e: 'Video Embed Code' # Video Embed Code
     ddaf97aa-ecdf-4dc4-b907-37241a3b6343: ArticleBody # ArticleBody
+    f03ab20d-cbd8-49ce-b38d-b548cb079818: Headline # Headline
     f4c0ab66-4c90-44ea-b6c9-9e969949bb4d: Heading # Heading
     f715fdde-db33-4c74-a860-c198747a761b: Headline # Headline
     fa74e5dc-81bf-4d91-bf22-ba8938077d46: Eyebrow # Eyebrow

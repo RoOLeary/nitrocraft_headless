@@ -67,4 +67,4 @@ fields:
     type: craft\fields\PlainText
 handle: video
 name: Video
-sortOrder: 5
+sortOrder: 7

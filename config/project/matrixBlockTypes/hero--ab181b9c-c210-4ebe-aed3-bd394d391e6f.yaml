@@ -96,4 +96,4 @@ fields:
     type: craft\fields\PlainText
 handle: hero
 name: Hero
-sortOrder: 1
+sortOrder: 3

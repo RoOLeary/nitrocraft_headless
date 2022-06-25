@@ -1,0 +1,41 @@
+field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+fieldLayouts:
+  178d58fd-a016-44ab-a8ae-7b29031c16ee:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f03ab20d-cbd8-49ce-b38d-b548cb079818 # Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  f03ab20d-cbd8-49ce-b38d-b548cb079818: # Headline
+    columnSuffix: jmxjaria
+    contentColumnType: text
+    fieldGroup: null
+    handle: headline
+    instructions: ''
+    name: Headline
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: header
+name: Header
+sortOrder: 2

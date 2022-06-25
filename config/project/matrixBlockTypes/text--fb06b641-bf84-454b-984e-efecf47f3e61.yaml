@@ -75,4 +75,4 @@ fields:
     type: craft\redactor\Field
 handle: text
 name: Text
-sortOrder: 2
+sortOrder: 6
