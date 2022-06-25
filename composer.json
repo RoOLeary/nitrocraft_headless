@@ -1,6 +1,6 @@
 {
     "require": {
-        "craftcms/cms": "3.7.45",
+        "craftcms/cms": "3.7.45.1",
         "craftcms/redactor": "^2.10.7",
         "verbb/super-table": "2.7.2",
         "vlucas/phpdotenv": "^5.4.0"

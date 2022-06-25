@@ -37,5 +37,4 @@ return [
 
     'enableGql' => true,
 
-    'headlessMode' => true
 ];
