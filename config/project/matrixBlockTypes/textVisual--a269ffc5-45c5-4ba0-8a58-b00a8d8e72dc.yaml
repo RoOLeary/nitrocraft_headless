@@ -1,11 +1,11 @@
 field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
 fieldLayouts:
-  e5bac886-150b-454e-a078-c206ba00958f:
+  5bbb9716-4a6a-4256-af4d-1bbc67cd69a2:
     tabs:
       -
         elements:
           -
-            fieldUid: 1fe8f0ad-12cb-41b4-ba5b-47b833bc7812 # Unit Id
+            fieldUid: 9f4ae9fd-9ec5-4570-b0ac-d857dfd0b6aa # Unit Id
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 9c402a93-b3e7-4113-a514-de877143610d # Heading
+            fieldUid: e79c85f5-481c-48b5-81b6-967064995904 # Text Visual Title
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 7ac46c41-4c27-4c1b-84df-e54dba8bacfd # Speakers Intro
+            fieldUid: 48f64521-1a89-4e88-8570-b84fb02fb07d # Text Visual Content
             instructions: null
             label: null
             required: false
@@ -32,7 +32,16 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 84343fee-3a4a-4617-97af-d90bc4108bcf # Speakers
+            fieldUid: 8e796a89-b670-45ce-b932-334adc605154 # Text Visual Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e9bc3994-4748-47b3-a2dc-58d2e60bbc7a # Text Visual Buttons
             instructions: null
             label: null
             required: false
@@ -43,8 +52,28 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  1fe8f0ad-12cb-41b4-ba5b-47b833bc7812: # Unit Id
-    columnSuffix: vagxnsyi
+  8e796a89-b670-45ce-b932-334adc605154: # Text Visual Image
+    columnSuffix: hxecwwau
+    contentColumnType: text
+    fieldGroup: null
+    handle: textVisualImage
+    instructions: ''
+    name: 'Text Visual Image'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9f4ae9fd-9ec5-4570-b0ac-d857dfd0b6aa: # Unit Id
+    columnSuffix: lhnepvmj
     contentColumnType: text
     fieldGroup: null
     handle: unitId
@@ -63,13 +92,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  7ac46c41-4c27-4c1b-84df-e54dba8bacfd: # Speakers Intro
-    columnSuffix: jmsxubrc
+  48f64521-1a89-4e88-8570-b84fb02fb07d: # Text Visual Content
+    columnSuffix: elumpqdb
     contentColumnType: text
     fieldGroup: null
-    handle: speakersIntro
-    instructions: 'Intro text for the speaker component. Optional. '
-    name: 'Speakers Intro'
+    handle: textVisualContent
+    instructions: ''
+    name: 'Text Visual Content'
     searchable: false
     settings:
       availableTransforms: '*'
@@ -91,13 +120,34 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\redactor\Field
-  9c402a93-b3e7-4113-a514-de877143610d: # Heading
-    columnSuffix: kengwaoa
+  e9bc3994-4748-47b3-a2dc-58d2e60bbc7a: # Text Visual Buttons
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: textVisualButtons
+    instructions: ''
+    name: 'Text Visual Buttons'
+    searchable: false
+    settings:
+      contentTable: '{{%stc_textvisualbuttons}}'
+      fieldLayout: matrix
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  e79c85f5-481c-48b5-81b6-967064995904: # Text Visual Title
+    columnSuffix: etccqqvk
     contentColumnType: text
     fieldGroup: null
-    handle: heading
+    handle: textVisualTitle
     instructions: ''
-    name: Heading
+    name: 'Text Visual Title'
     searchable: false
     settings:
       byteLimit: null
@@ -111,29 +161,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  84343fee-3a4a-4617-97af-d90bc4108bcf: # Speakers
-    columnSuffix: null
-    contentColumnType: string
-    fieldGroup: null
-    handle: speakers
-    instructions: ''
-    name: Speakers
-    searchable: false
-    settings:
-      allowSelfRelations: false
-      limit: ''
-      localizeRelations: false
-      selectionLabel: ''
-      showSiteMenu: true
-      source: null
-      sources:
-        - 'section:cc1499b1-8d66-4731-b6e6-9df288ebf714' # Speakers
-      targetSiteId: null
-      validateRelatedElements: false
-      viewMode: null
-    translationKeyFormat: null
-    translationMethod: site
-    type: craft\fields\Entries
-handle: speakers
-name: Speakers
-sortOrder: 5
+handle: textVisual
+name: 'Text Visual'
+sortOrder: 6

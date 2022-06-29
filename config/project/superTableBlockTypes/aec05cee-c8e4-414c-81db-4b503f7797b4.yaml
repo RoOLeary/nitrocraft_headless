@@ -1,11 +1,11 @@
-field: 78888197-26c5-4cfa-bc9e-acb8a24d0bc3 # Blocks
+field: e9bc3994-4748-47b3-a2dc-58d2e60bbc7a # Text Visual Buttons
 fieldLayouts:
-  be3eab39-3f2d-4e1a-94ef-cde6e031a286:
+  7f8146eb-c2c4-4fdc-9790-ec8ee11f740c:
     tabs:
       -
         elements:
           -
-            fieldUid: f892d7d2-52dd-4882-a35a-48e83faabdd9 # Unit Id
+            fieldUid: 45376496-3fb2-4d0c-b143-dff5f5cd2326 # Link Id
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: fa74e5dc-81bf-4d91-bf22-ba8938077d46 # Eyebrow
+            fieldUid: aa6ce88c-2bcc-4afd-a0aa-2573e87b6e1e # Link Text
             instructions: null
             label: null
             required: false
@@ -23,7 +23,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: f4c0ab66-4c90-44ea-b6c9-9e969949bb4d # Heading
+            fieldUid: 8b590b8e-114a-4fc1-8f65-e4cb7d55a31a # Link Url
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 2ec4da68-1d05-4611-a46d-9e755045d3ae # Sub Headline
+            fieldUid: 7f04efa5-3c71-4d26-b19c-2ea158ff475d # Target
             instructions: null
             label: null
             required: false
@@ -43,13 +43,38 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  2ec4da68-1d05-4611-a46d-9e755045d3ae: # Sub Headline
-    columnSuffix: nrnsnnoa
+  7f04efa5-3c71-4d26-b19c-2ea158ff475d: # Target
+    columnSuffix: wrfstnww
     contentColumnType: text
     fieldGroup: null
-    handle: subHeadline
+    handle: target
     instructions: ''
-    name: 'Sub Headline'
+    name: Target
+    searchable: false
+    settings:
+      multi: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Is External'
+            -
+              - value
+              - isExternal
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Checkboxes
+  8b590b8e-114a-4fc1-8f65-e4cb7d55a31a: # Link Url
+    columnSuffix: ubsejifk
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkUrl
+    instructions: ''
+    name: 'Link Url'
     searchable: false
     settings:
       byteLimit: null
@@ -63,13 +88,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f4c0ab66-4c90-44ea-b6c9-9e969949bb4d: # Heading
-    columnSuffix: vbicaizl
+  45376496-3fb2-4d0c-b143-dff5f5cd2326: # Link Id
+    columnSuffix: apgosbao
     contentColumnType: text
     fieldGroup: null
-    handle: heading
+    handle: linkId
     instructions: ''
-    name: Heading
+    name: 'Link Id'
     searchable: false
     settings:
       byteLimit: null
@@ -83,13 +108,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f892d7d2-52dd-4882-a35a-48e83faabdd9: # Unit Id
-    columnSuffix: fdjergkw
+  aa6ce88c-2bcc-4afd-a0aa-2573e87b6e1e: # Link Text
+    columnSuffix: kkmhhmdk
     contentColumnType: text
     fieldGroup: null
-    handle: unitId
+    handle: linkText
     instructions: ''
-    name: 'Unit Id'
+    name: 'Link Text'
     searchable: false
     settings:
       byteLimit: null
@@ -103,26 +128,3 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  fa74e5dc-81bf-4d91-bf22-ba8938077d46: # Eyebrow
-    columnSuffix: hhrcderx
-    contentColumnType: text
-    fieldGroup: null
-    handle: eyebrow
-    instructions: ''
-    name: Eyebrow
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '4'
-      multiline: ''
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-handle: hero
-name: Hero
-sortOrder: 3

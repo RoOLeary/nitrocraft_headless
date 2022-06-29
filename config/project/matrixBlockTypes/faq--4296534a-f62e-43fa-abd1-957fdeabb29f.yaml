@@ -31,6 +31,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: 983b0bab-1409-4732-b3e4-24312fddf55d # Unit Id
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 fields:
@@ -91,6 +100,26 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
+  983b0bab-1409-4732-b3e4-24312fddf55d: # Unit Id
+    columnSuffix: vohbpffd
+    contentColumnType: text
+    fieldGroup: null
+    handle: unitId
+    instructions: ''
+    name: 'Unit Id'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   432539cb-2c1f-4e0d-95e4-fbd53d2fd0c8: # Faq Heading
     columnSuffix: xczsfexy
     contentColumnType: text

@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d7c059b5-7d24-48d7-97bf-9dfca0e647ca: # nitroblog
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: homepage
+type: single

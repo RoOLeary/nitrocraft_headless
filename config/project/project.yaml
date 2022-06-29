@@ -1,4 +1,4 @@
-dateModified: 1656161136
+dateModified: 1656538605
 email:
   fromEmail: roleary81@gmail.com
   fromName: nitroblog
@@ -8,6 +8,7 @@ meta:
     0a9a7938-7fd3-4180-9a2c-eb49e35f3bbc: 'Article Body' # Article Body
     0af7d687-804f-4800-8afc-d5aed3f4956a: Editorial # Editorial
     0e8d53af-2e9f-4199-91d3-e494e3e6dc50: 'Video Title' # Video Title
+    1fe8f0ad-12cb-41b4-ba5b-47b833bc7812: 'Unit Id' # Unit Id
     2de52828-7907-4fe9-b689-e29d44f2662c: 'Speaker Bio' # Speaker Bio
     2ec4da68-1d05-4611-a46d-9e755045d3ae: 'Sub Headline' # Sub Headline
     2f1d3162-bbc3-4977-94a4-df26c0a3ca2d: Pages # Pages
@@ -21,15 +22,21 @@ meta:
     6e5121f2-2ee7-4371-8f40-34c1b4b3705c: 'Author Last Name' # Author Last Name
     7a0cedd4-e389-4ee8-9625-dc8020b1f508: Authors # Authors
     7ac46c41-4c27-4c1b-84df-e54dba8bacfd: 'Speakers Intro' # Speakers Intro
+    7e20a9d9-fbeb-428c-839c-23fbb243d5a0: 'Unit Id' # Unit Id
     7e672484-864b-498b-89ef-5a30f54143cd: 'Author Socials' # Author Socials
+    7f04efa5-3c71-4d26-b19c-2ea158ff475d: Target # Target
     7fcf87a3-1df9-43ac-bfae-b276545ef757: Tags # Tags
     8a00143c-d0ca-420f-bd33-8bed0b046e07: 'Author Name' # Author Name
     8a09fbc4-a655-4a3c-a4c4-c9f6b7f9a887: Video # Video
     8a231833-cc61-4a4b-9d64-f094c10f9121: nitroblog # nitroblog
+    8b590b8e-114a-4fc1-8f65-e4cb7d55a31a: 'Link Url' # Link Url
+    8e796a89-b670-45ce-b932-334adc605154: 'Text Visual Image' # Text Visual Image
     9c402a93-b3e7-4113-a514-de877143610d: Heading # Heading
+    9f4ae9fd-9ec5-4570-b0ac-d857dfd0b6aa: 'Unit Id' # Unit Id
     25c8179c-394c-4d2c-b92d-23e8e248b2ce: 'Article Format' # Article Format
     36b84296-716c-4234-8abc-080f9f16890c: 'Sub Headline' # Sub Headline
     44a32b2b-88c6-42a6-863e-64a2475ed308: Authors # Authors
+    48f64521-1a89-4e88-8570-b84fb02fb07d: 'Text Visual Content' # Text Visual Content
     56cce42b-6d13-4c2e-81d4-a8d59fbb3d43: Answer # Answer
     61f79bb1-a95d-4f39-a9ca-5aaa75296d44: 'Faq Leadtext' # Faq Leadtext
     68e3b15a-4d81-44cf-9068-1a47ead471c6: Pages # Pages
@@ -44,6 +51,7 @@ meta:
     703b3f54-65f7-40aa-8dc8-4de72b135d2f: Header # Header
     809e8d90-be53-4bfc-8e85-2ac295f87b92: 'Speaker Category' # Speaker Category
     816ef14f-7fef-407b-97a3-a5d94ef0c4c7: Common # Common
+    983b0bab-1409-4732-b3e4-24312fddf55d: 'Unit Id' # Unit Id
     1898b1a4-b386-470a-8013-0f7eee168b0c: 'Author Meta' # Author Meta
     2064df9b-8d43-46b0-8ebf-77d94a8b5479: 'Slider Title' # Slider Title
     3006cf88-6778-48e6-972a-19e9b65c2838: Authors # Authors
@@ -53,12 +61,16 @@ meta:
     84343fee-3a4a-4617-97af-d90bc4108bcf: Speakers # Speakers
     249932c6-1638-44bc-b88f-05f3e1265758: Articles # Articles
     432539cb-2c1f-4e0d-95e4-fbd53d2fd0c8: 'Faq Heading' # Faq Heading
+    0861337e-18ae-47c8-b77d-93d3df57e19b: Homepage # Homepage
     4296534a-f62e-43fa-abd1-957fdeabb29f: Faq # Faq
     31114783-8900-4749-ac31-ad8cfe7991b5: Question # Question
+    45376496-3fb2-4d0c-b143-dff5f5cd2326: 'Link Id' # Link Id
     71125163-6678-4edb-b590-b7a22d6ddac8: 'Enable Manual Related Articles' # Enable Manual Related Articles
     78888197-26c5-4cfa-bc9e-acb8a24d0bc3: Blocks # Blocks
     a9ea1239-f6bf-48e5-9a34-924440bc8cf5: 'Company Url' # Company Url
+    a269ffc5-45c5-4ba0-8a58-b00a8d8e72dc: 'Text Visual' # Text Visual
     a350242b-ebe9-41dc-ae35-b1607d2689a3: 'Public Schema' # Public Schema
+    aa6ce88c-2bcc-4afd-a0aa-2573e87b6e1e: 'Link Text' # Link Text
     ab181b9c-c210-4ebe-aed3-bd394d391e6f: Hero # Hero
     abe708b1-54c9-4cc4-935c-f1dd58d42fa2: Category # Category
     ac4cdd5d-e959-4928-a8c0-f856638f112a: 'Speaker Name' # Speaker Name
@@ -67,6 +79,7 @@ meta:
     b92f2c70-6612-4494-b3f5-7fccfd6d38c6: 'Author First Name' # Author First Name
     b8293460-ce4a-4151-b1ab-e27bc6749de5: Speakers # Speakers
     c1bb4e2d-2c53-48de-8a84-a21a5ec47734: Blocks # Blocks
+    c35bc9b6-6d41-46af-a43e-4dc993cb0e96: Homepage # Homepage
     c4827951-7c23-426e-9af7-a47f10a48ed3: Articles # Articles
     ca8375e9-eb13-4c5d-b7ef-fe1a916efcd2: Articles # Articles
     cc1499b1-8d66-4731-b6e6-9df288ebf714: Speakers # Speakers
@@ -78,13 +91,21 @@ meta:
     d8908cbd-ae7e-4778-b10d-2451f45de857: 'Slider Matrix' # Slider Matrix
     dbbb967c-c488-4cb8-b499-8d94ccb9ea4e: 'Video Embed Code' # Video Embed Code
     ddaf97aa-ecdf-4dc4-b907-37241a3b6343: ArticleBody # ArticleBody
+    e5fedb21-dd4d-497d-86c5-17c28260ed7c: 'Unit Id' # Unit Id
+    e9bc3994-4748-47b3-a2dc-58d2e60bbc7a: 'Text Visual Buttons' # Text Visual Buttons
+    e79c85f5-481c-48b5-81b6-967064995904: 'Text Visual Title' # Text Visual Title
     f03ab20d-cbd8-49ce-b38d-b548cb079818: Headline # Headline
     f4c0ab66-4c90-44ea-b6c9-9e969949bb4d: Heading # Heading
     f715fdde-db33-4c74-a860-c198747a761b: Headline # Headline
+    f892d7d2-52dd-4882-a35a-48e83faabdd9: 'Unit Id' # Unit Id
     fa74e5dc-81bf-4d91-bf22-ba8938077d46: Eyebrow # Eyebrow
     fb06b641-bf84-454b-984e-efecf47f3e61: Text # Text
     fca96965-882f-4612-8517-144a5bf4356f: 'Author Type' # Author Type
 plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     edition: standard
     enabled: true
