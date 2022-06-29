@@ -213,14 +213,14 @@ return [
                                     'heading' => $block->heading,
                                     'subHeadline' => $block->subHeadline
                                 ];
-                                break;
-                             case 'header':
+                            break;
+                            case 'header':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
                                     'blockType' => 'header',
                                     'headline' => $block->headline,
                                 ];
-                                break;
+                            break;
                             case 'faq':
                                 $faqRows = [];
                                 foreach($block->faqs->all() as $row){
@@ -236,7 +236,7 @@ return [
                                     'faqLeadtext' => $block->faqLeadtext,
                                     'faqs' => $faqRows
                                 ];
-                                break;
+                            break;
                             
                             // case 'speakers':
                             //     // $selectedSpeakers = [];
@@ -269,7 +269,7 @@ return [
                                     'videoTitle' => $block->videoTitle,
                                     'videoEmbedCode' => $block->videoEmbedCode,
                                 ];
-                                break;
+                            break;
                             case 'imageSlider':
                                 $SuperTableRows = [];
                                 foreach ($block->sliderMatrix->all() as $row){
@@ -287,7 +287,7 @@ return [
                                     'sliderTitle' => $block->sliderTitle,
                                     'sliderMatrix' => $SuperTableRows,
                                 ];
-                                break;
+                            break;
                             case 'text':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
@@ -295,7 +295,7 @@ return [
                                     'headline' => $block->headline,
                                     'articleBody' => $block->articleBody,
                                 ];
-                                break;
+                            break;
                             case 'textVisual':
 
                                 $TVButtons = [];
@@ -315,15 +315,14 @@ return [
                                     'image' => $block->textVisualImage,
                                     'buttons' => $TVButtons,
                                 ];
-                                break;
+                            break;
                         }
                     }
 
                     return [
                         'title' => $entry->title,
                         'pageBlocks' => $bodyBlocks, 
-                        'jsonUrl' => UrlHelper::url("api/pages/{$entry->slug}.json"),
-                       
+                        'jsonUrl' => UrlHelper::url("api/pages/{$entry->slug}.json"),           
                     ];
                 },
             ];
