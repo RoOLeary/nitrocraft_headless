@@ -17,20 +17,20 @@ return [
                         switch ($block->type->handle) {
                             case 'hero':
                                 $bodyBlocks[] = [
+                                    'uid' => $block->uid,
                                     'blockType' => 'hero',
-                                    'unitId' => $block->unitId,
                                     'eyebrow' => $block->eyebrow,
                                     'heading' => $block->heading,
                                     'subHeading' => $block->subHeading
                                 ];
-                                break;
+                            break;
                             case 'header':
-                            $bodyBlocks[] = [
-                                'uid' => $block->uid,
-                                'blockType' => 'header',
-                                'headline' => $block->headline,
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'header',
+                                    'headline' => $block->headline,
                                 ];
-                                break;
+                            break;
                             // case 'faq':
                             //     $faqRows = [];
                             //     foreach($block->faqs->all() as $row){
@@ -46,32 +46,32 @@ return [
                             //         'faqLeadtext' => $block->faqLeadtext,
                             //         'faqs' => $faqRows
                             //     ];
-                            //     break;
+                            // break;
                             
-                            // // case 'speakers':
-                            // //     // $selectedSpeakers = [];
-                            // //     $relatedCat = $block->speakerCategory->one()->id;
+                            // case 'speakers':
+                            //     // $selectedSpeakers = [];
+                            //     $relatedCat = $block->speakerCategory->one()->id;
                                 
-                            // //     // $blockSpeakers = Entry::find()
-                            // //     //     ->section('speakers')
-                            // //     //     ->relatedTo($relatedCat)
-                            // //     //     ->limit(10)
-                            // //     //     ->all();
+                            //     // $blockSpeakers = Entry::find()
+                            //     //     ->section('speakers')
+                            //     //     ->relatedTo($relatedCat)
+                            //     //     ->limit(10)
+                            //     //     ->all();
 
                                 
-                            // //     // $selectedSpeakers = [];
-                            // //     //     foreach($blockSpeakers as $spkr){
-                            // //     //     $selectedSpeakers[] = [
-                            // //     //         'speakerName' => $spkr->speakerName
-                            // //     //     ];
-                            // //     // }
+                            //     // $selectedSpeakers = [];
+                            //     //     foreach($blockSpeakers as $spkr){
+                            //     //     $selectedSpeakers[] = [
+                            //     //         'speakerName' => $spkr->speakerName
+                            //     //     ];
+                            //     // }
 
-                            // //     $bodyBlocks[] = [
-                            // //         'heading' => $block->heading,
-                            // //         'speakersIntro' => $block->speakersIntro,
-                            // //         // 'speakers' => $selectedSpeakers
-                            // //     ];
-                            // //     break;
+                            //     $bodyBlocks[] = [
+                            //         'heading' => $block->heading,
+                            //         'speakersIntro' => $block->speakersIntro,
+                            //         // 'speakers' => $selectedSpeakers
+                            //     ];
+                            //     break;
                             // case 'video':
                             //     $bodyBlocks[] = [
                             //         'uid' => $block->uid,
@@ -79,25 +79,25 @@ return [
                             //         'videoTitle' => $block->videoTitle,
                             //         'videoEmbedCode' => $block->videoEmbedCode,
                             //     ];
-                            //     break;
-                            // case 'imageSlider':
-                            //     $SuperTableRows = [];
-                            //     foreach ($block->sliderMatrix->all() as $row){
-                            //         $SuperTableRows[] = [
-                            //             'textSub' => $row->textSub,
-                            //             'textHeading' => $row->textHeading,
-                            //             'textBackground' => $row->textBackground,
-                            //             'slideImage' => $row->slideImage,
-                            //             'slideColor' => $row->slideColor->value,
-                            //         ];
-                            //     }
-                            //     $bodyBlocks[] = [
-                            //         'uid' => $block->uid,
-                            //         'blockType' => 'imageSlider',
-                            //         'sliderTitle' => $block->sliderTitle,
-                            //         'sliderMatrix' => $SuperTableRows,
-                            //     ];
-                            //     break;
+                            // break;
+                            case 'imageSlider':
+                                $SuperTableRows = [];
+                                foreach ($block->sliderMatrix->all() as $row){
+                                    $SuperTableRows[] = [
+                                        'textSub' => $row->textSub,
+                                        'textHeading' => $row->textHeading,
+                                        'textBackground' => $row->textBackground,
+                                        'slideImage' => $row->slideImage,
+                                        'slideColor' => $row->slideColor->value,
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'imageSlider',
+                                    'sliderTitle' => $block->sliderTitle,
+                                    'sliderMatrix' => $SuperTableRows,
+                                ];
+                            break;
                             // case 'text':
                             //     $bodyBlocks[] = [
                             //         'uid' => $block->uid,
@@ -105,7 +105,7 @@ return [
                             //         'headline' => $block->headline,
                             //         'articleBody' => $block->articleBody,
                             //     ];
-                            //     break;
+                            // break;
                             // case 'textVisual':
 
                             //     $TVButtons = [];
@@ -117,7 +117,6 @@ return [
                             //             'isExternal' => $row->target
                             //         ];
                             //     }
-
                             //     $bodyBlocks[] = [
                             //         'uid' => $block->uid,
                             //         'blockType' => 'textVisual',
@@ -126,7 +125,7 @@ return [
                             //         'image' => $block->textVisualImage,
                             //         'buttons' => $TVButtons,
                             //     ];
-                            //     break;
+                            // break;
                         }
                     }
 
@@ -150,7 +149,7 @@ return [
 
                     return [
                         'title' => $entry->headline,
-                        'jsonUrl' => UrlHelper::url(":3306/api/articles/{$entry->slug}.json"),
+                        'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     
                     ];
                 },
@@ -286,13 +285,9 @@ return [
                         'title' => $entry->title,
                         'headline' => $entry->headline,
                         'subHeadline' => $entry->subHeadline,
-                        'boo' => 'bees',
-                        // 'excerpt' => $entry->excerpt,
-                        // 'format' => $entry->articleFormat,
                         'body' => $entry->articleBody,
-                        'related' => $entry->manualRelatedArticles->all(),
-                        // 'blocks' => $bodyBlocks,
-                        'jsonUrl' => UrlHelper::url(":3306/api/articles/{$entry->slug}.json"),
+                        'blocks' => $bodyBlocks,
+                        'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                        
                     ];
                 },
