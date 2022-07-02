@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  b4b168b3-640b-49a1-ba82-0367557263c5:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: test
+name: Test
+siteSettings:
+  c1c21d8f-82fa-4587-a725-c0f0106f7484: # nitroblog
+    hasUrls: true
+    template: null
+    uriFormat: 'test/{slug}'
+structure:
+  maxLevels: null
+  uid: f5c21a84-a033-4d3d-8655-4cb9145c3c88

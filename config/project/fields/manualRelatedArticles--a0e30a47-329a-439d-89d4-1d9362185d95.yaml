@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 64b3ace4-4df0-4f4d-a167-76fa37b762a1 # Articles
+handle: manualRelatedArticles
+instructions: ''
+name: 'Manual Related Articles'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:ecd94983-e89f-4db7-acd7-c96e6ca6b492' # Articles
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

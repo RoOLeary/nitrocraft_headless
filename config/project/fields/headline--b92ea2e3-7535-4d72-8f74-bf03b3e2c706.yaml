@@ -1,0 +1,19 @@
+columnSuffix: gasmoegg
+contentColumnType: text
+fieldGroup: 64b3ace4-4df0-4f4d-a167-76fa37b762a1 # Articles
+handle: headline
+instructions: ''
+name: Headline
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

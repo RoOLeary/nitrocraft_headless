@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articles
+name: Articles
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  c1c21d8f-82fa-4587-a725-c0f0106f7484: # nitroblog
+    enabledByDefault: true
+    hasUrls: true
+    template: articles/_entry
+    uriFormat: 'articles/{slug}'
+type: channel
