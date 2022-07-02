@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  c1c21d8f-82fa-4587-a725-c0f0106f7484: # nitroblog
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: homepage
+type: single

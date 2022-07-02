@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: nitroblog
+primary: true
+siteGroup: 90b91471-2a23-4a4c-b1aa-9e65e043bfed # nitroblog
+sortOrder: 1

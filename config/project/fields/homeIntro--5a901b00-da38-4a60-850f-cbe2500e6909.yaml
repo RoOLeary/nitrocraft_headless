@@ -1,0 +1,19 @@
+columnSuffix: gbdolgts
+contentColumnType: text
+fieldGroup: 3cfa143e-7c09-4e8e-84c1-0ab1fa4d0aa5 # Common
+handle: homeIntro
+instructions: ''
+name: 'Home Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

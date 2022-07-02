@@ -1,0 +1,100 @@
+field: 7db71904-a388-4646-9119-eeea53f9a860 # Page Blocks
+fieldLayouts:
+  8f99381c-e9e3-42c3-b03a-98348e621b02:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 125d521d-5125-4d35-bd18-394989dbb2ec # Unit ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1feb36e6-8a14-4516-bd42-2f3f6990a3ea # Slider Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 748efbd1-b72a-49cb-96b2-a3180c4b22d6 # Slider Matrix
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1feb36e6-8a14-4516-bd42-2f3f6990a3ea: # Slider Title
+    columnSuffix: iafwvoel
+    contentColumnType: text
+    fieldGroup: null
+    handle: sliderTitle
+    instructions: ''
+    name: 'Slider Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  125d521d-5125-4d35-bd18-394989dbb2ec: # Unit ID
+    columnSuffix: brwluuvb
+    contentColumnType: text
+    fieldGroup: null
+    handle: unitId
+    instructions: ''
+    name: 'Unit ID'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  748efbd1-b72a-49cb-96b2-a3180c4b22d6: # Slider Matrix
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sliderMatrix
+    instructions: ''
+    name: 'Slider Matrix'
+    searchable: false
+    settings:
+      contentTable: '{{%stc_7_slidermatrix}}'
+      fieldLayout: matrix
+      maxRows: ''
+      minRows: ''
+      placeholderKey: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: ''
+      staticField: ''
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: imageSlider
+name: 'Image Slider'
+sortOrder: 7

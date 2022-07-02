@@ -1,0 +1,203 @@
+field: 748efbd1-b72a-49cb-96b2-a3180c4b22d6 # Slider Matrix
+fieldLayouts:
+  e2adf637-df48-4ae8-8d2c-2a977b4b1971:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4c076de5-aae0-4d06-bff7-5c5cf51e94d0 # Text Sub
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a596ae39-1937-4474-832d-7297e0c4e268 # Text Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 19c29885-c1b2-4abf-b78a-9f4265438de6 # Text Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5cc1aeef-1ae8-403f-9a68-f29cc89a48a8 # Slide Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a3c26357-2f4d-4bf9-8cd3-4a28f26b3920 # Slide Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4c076de5-aae0-4d06-bff7-5c5cf51e94d0: # Text Sub
+    columnSuffix: qsszwxuq
+    contentColumnType: text
+    fieldGroup: null
+    handle: textSub
+    instructions: ''
+    name: 'Text Sub'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5cc1aeef-1ae8-403f-9a68-f29cc89a48a8: # Slide Image
+    columnSuffix: ipvrjjbh
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideImage
+    instructions: ''
+    name: 'Slide Image'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  19c29885-c1b2-4abf-b78a-9f4265438de6: # Text Background
+    columnSuffix: jvsufzqi
+    contentColumnType: text
+    fieldGroup: null
+    handle: textBackground
+    instructions: ''
+    name: 'Text Background'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a3c26357-2f4d-4bf9-8cd3-4a28f26b3920: # Slide Color
+    columnSuffix: wouorgzr
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideColor
+    instructions: ''
+    name: 'Slide Color'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - yellow
+            -
+              - value
+              - yellow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - gray
+            -
+              - value
+              - gray
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - dark-gray
+            -
+              - value
+              - darkGray
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  a596ae39-1937-4474-832d-7297e0c4e268: # Text Heading
+    columnSuffix: phhjbtkp
+    contentColumnType: text
+    fieldGroup: null
+    handle: textHeading
+    instructions: ''
+    name: 'Text Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

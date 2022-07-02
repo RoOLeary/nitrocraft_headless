@@ -1,0 +1,41 @@
+field: 7db71904-a388-4646-9119-eeea53f9a860 # Page Blocks
+fieldLayouts:
+  11640378-d320-4cfd-8085-f051482b0e08:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a440d6b6-5f5d-4ddd-a840-8e906e62e23d # Unit ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a440d6b6-5f5d-4ddd-a840-8e906e62e23d: # Unit ID
+    columnSuffix: irdniftm
+    contentColumnType: text
+    fieldGroup: null
+    handle: unitId
+    instructions: ''
+    name: 'Unit ID'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: textVisual
+name: 'Text Visual'
+sortOrder: 4

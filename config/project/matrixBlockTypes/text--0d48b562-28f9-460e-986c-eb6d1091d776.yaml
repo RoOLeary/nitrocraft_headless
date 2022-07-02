@@ -1,0 +1,41 @@
+field: 7db71904-a388-4646-9119-eeea53f9a860 # Page Blocks
+fieldLayouts:
+  b6fc0bb9-1ba4-4c51-95ae-cfe22d34f093:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2af72346-ce55-4119-b08c-84b35f86752f # Unit ID
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2af72346-ce55-4119-b08c-84b35f86752f: # Unit ID
+    columnSuffix: hljaypgs
+    contentColumnType: text
+    fieldGroup: null
+    handle: unitId
+    instructions: ''
+    name: 'Unit ID'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: text
+name: Text
+sortOrder: 3
